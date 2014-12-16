@@ -1,0 +1,18 @@
+{
+    "version": "0.1.0",
+    "name": "cz.blocshop.socketsforcordova",
+    "cordova_name": "SocketsForCordova",
+    "description": "Cordova plugin for socket communication",
+    "license": "Apache 2.0",
+    "keywords": [
+        "cordova",
+        "sockets",
+        "socket"
+    ],
+    "platforms": [
+        "android",
+        "ios",
+        "wp8"
+    ],
+    "engines": []
+}

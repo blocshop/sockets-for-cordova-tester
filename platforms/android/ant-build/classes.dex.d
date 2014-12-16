@@ -1,0 +1,24 @@
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes.dex : \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\Consumer.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\Logging.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\SocketAdapter.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\SocketAdapterImpl$1.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\SocketAdapterImpl$2.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\SocketAdapterImpl.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\SocketAdapterOptions.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\SocketPlugin$CloseEventHandler.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\SocketPlugin$DataConsumer.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\SocketPlugin$ErrorHandler.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\SocketPlugin.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\tester\BuildConfig.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\tester\CordovaApp.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\tester\R$attr.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\tester\R$drawable.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\tester\R$string.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\tester\R$xml.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\cz\blocshop\socketsforcordova\tester\R.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar$1.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar$2.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar$3.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\classes\org\apache\cordova\statusbar\StatusBar.class \
+C:\GIT\sockets-for-cordova-tester\platforms\android\ant-build\dexedLibs\classes-087041ad741f1e36bc4dc34872270e06.jar \

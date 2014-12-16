@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:5
+-keep class cz.blocshop.socketsforcordova.tester.CordovaApp { <init>(...); }
+

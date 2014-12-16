@@ -1,0 +1,18 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cz.blocshop.socketsforcordova": {
+            "PACKAGE_NAME": "cz.blocshop.socketsforcordova.tester"
+        },
+        "org.apache.cordova.statusbar": {
+            "PACKAGE_NAME": "cz.blocshop.socketsforcordova.tester"
+        }
+    },
+    "dependent_plugins": {}
+}

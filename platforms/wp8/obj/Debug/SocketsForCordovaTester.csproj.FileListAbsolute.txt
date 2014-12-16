@@ -1,0 +1,14 @@
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\Bin\Debug\Background.png
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\Bin\Debug\cz.blocshop.socketsforcordova.tester.dll
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\Bin\Debug\cz.blocshop.socketsforcordova.tester.pdb
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\obj\Debug\App.g.cs
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\obj\Debug\cz.blocshop.socketsforcordova.tester.g.resources
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\obj\Debug\cz.blocshop.socketsforcordova.tester.dll
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\obj\Debug\cz.blocshop.socketsforcordova.tester.pdb
+C:\GIT\sockets-for-cordova-tester\platforms\wp8\obj\Debug\XapCacheFile.xml

@@ -1,0 +1,33 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"SocketsForCordova\"><param name=\"wp-package\" value=\"Blocshop.ScoketsForCordova.SocketPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"StatusBar\"><param name=\"wp-package\" value=\"StatusBar\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cz.blocshop.socketsforcordova": {
+            "PACKAGE_NAME": "{c4ce7810-69da-11e4-a300-ad069f08cbc8}"
+        },
+        "org.apache.cordova.statusbar": {
+            "PACKAGE_NAME": "{c4ce7810-69da-11e4-a300-ad069f08cbc8}"
+        }
+    },
+    "dependent_plugins": {}
+}

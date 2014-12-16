@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Sockets for Cordova by <span style="color: black;">{ blocshop }</span></h1>
+
+            <div id="menu">
+                <input id="connect-to-fics" type="button" onclick="connectToHost('freechess.org', 5000)" value="Connect to FICS" />
+
+                <br />
+
+                <h2>Connect to custom server</h2>
+                <input id="host" type="text" onkeypress="sendCommand(event)" placeholder="hostname"/>
+                <input id="port" type="number" onkeypress="sendCommand(event)" placeholder="port"/>
+                <input id="connect-to-custom-srver" type="button" onclick="connectToCustomHost()" value="Connect" />
+            </div>
+            <div id="console">
+                <ul id="data-output"></ul>
+                <input id="command-input" type="text" onkeypress="sendCommand(event)"/>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript">
+            var socket;
+
+            document.addEventListener("deviceready", function() {
+                StatusBar.hide();
+
+                setStyles();
+            });
+
+            window.addEventListener("resize", setStyles);
+
+            function setStyles() {
+                var dataOutput = document.getElementById("data-output");
+                dataOutput.style.height = (window.innerHeight - 85) + "px";
+            }
+
+            function connectToCustomHost() {
+                var host = document.getElementById("host").value;
+                var port = document.getElementById("port").value;
+
+                if (host == "" || port == "") {
+                    alert("Host and port cannot be empty.");
+                }
+                else {
+                    connectToHost(host, parseInt(port));
+                }
+            }
+
+
+            function connectToHost(host, port) {
+                window.socket = new Socket();
+                window.socket.onData = receiveData;
+                window.socket.onError = function(errorMessage) {
+                    alert("Error occured, error: " + errorMessage);
+                };
+                window.socket.onClose = function(hasError) {
+                    console.info("Socket closed, hasErrors=" + hasError);
+                    setDisconnected();
+                };
+                window.socket.open(
+                        host,
+                        port,
+                        setConnected,
+                        function(errorMessage) {
+                            alert("Error during connection, error: " + errorMessage);
+                        });
+            }
+
+
+            function addTextToOutputElement(text) {
+                var dataOutput = document.getElementById("data-output");
+                var line = document.createElement("li");
+                line.innerText = text;
+                dataOutput.appendChild(line);
+                dataOutput.scrollTop = dataOutput.scrollHeight;
+            }
+
+            function receiveData(data) {
+                var chars = new Array(data.length);
+                for (var i = 0; i < data.length; i++) {
+                    chars.push(String.fromCharCode(data[i]));
+                }
+                var dataString = chars.join("");
+                dataString.split(/(?:\r\n|\r|\n)/g).forEach(addTextToOutputElement);
+            }
+
+            function sendCommand(event) {
+                // send data on enter button clicked
+                if(event.charCode == 13) {
+                    var input = document.getElementById("command-input");
+                    var command = input.value;
+                    var bytes = new Uint8Array(command.length + 1);
+                    for (var i = 0; i < command.length; i++) {
+                        bytes[i] = command.charCodeAt(i);
+                    }
+                    bytes[command.length] = "\n".charCodeAt(0);
+                    socket.write(bytes);
+                    input.value = "";
+                }
+            }
+
+            function setConnected() {
+                var menuEl = document.getElementById("menu");
+                menuEl.style.display = "none";
+
+                var consoleEl = document.getElementById("console");
+                consoleEl.style.display = "block";
+            }
+            function setDisconnected() {
+                var menuEl = document.getElementById("menu");
+                menuEl.style.display = "block";
+
+                var consoleEl = document.getElementById("console");
+                consoleEl.style.display = "none";
+            }
+
+            setDisconnected();
+        </script>
+    </body>
+</html>

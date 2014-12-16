@@ -1,0 +1,24 @@
+﻿<xapCache source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="7. 12. 2014 19:49:14">
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\obj\Debug\cz.blocshop.socketsforcordova.tester.dll" archivePath="cz.blocshop.socketsforcordova.tester.dll" lastWriteTime="30. 11. 2014 20:01:46" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\config.xml" archivePath="config.xml" lastWriteTime="7. 12. 2014 19:48:54" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\www\cordova.js" archivePath="www\cordova.js" lastWriteTime="7. 12. 2014 19:48:54" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\www\cordova_plugins.js" archivePath="www\cordova_plugins.js" lastWriteTime="7. 12. 2014 19:48:54" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\www\css\index.css" archivePath="www\css\index.css" lastWriteTime="7. 12. 2014 19:48:54" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\www\css\normalize.css" archivePath="www\css\normalize.css" lastWriteTime="7. 12. 2014 19:48:54" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\www\img\logo.png" archivePath="www\img\logo.png" lastWriteTime="7. 12. 2014 19:48:54" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\www\index.html" archivePath="www\index.html" lastWriteTime="7. 12. 2014 19:48:54" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\www\plugins\cz.blocshop.socketsforcordova\socket.js" archivePath="www\plugins\cz.blocshop.socketsforcordova\socket.js" lastWriteTime="7. 12. 2014 19:48:54" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\www\plugins\org.apache.cordova.statusbar\www\statusbar.js" archivePath="www\plugins\org.apache.cordova.statusbar\www\statusbar.js" lastWriteTime="7. 12. 2014 19:48:54" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="11. 11. 2014 20:41:45" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="11. 11. 2014 20:41:45" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\Images\appbar.feature.video.rest.png" archivePath="Images\appbar.feature.video.rest.png" lastWriteTime="11. 11. 2014 20:41:45" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\Images\appbar.next.rest.png" archivePath="Images\appbar.next.rest.png" lastWriteTime="11. 11. 2014 20:41:45" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\Images\appbar.save.rest.png" archivePath="Images\appbar.save.rest.png" lastWriteTime="11. 11. 2014 20:41:45" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\Images\appbar.stop.rest.png" archivePath="Images\appbar.stop.rest.png" lastWriteTime="11. 11. 2014 20:41:45" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\VERSION" archivePath="VERSION" lastWriteTime="11. 11. 2014 20:41:45" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="11. 11. 2014 20:41:45" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="11. 11. 2014 20:49:05" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\Bin\Debug\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="11. 11. 2014 20:41:44" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="11. 11. 2014 20:41:44" />
+  <file source="C:\GIT\sockets-for-cordova-tester\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="11. 11. 2014 20:49:06" />
+</xapCache>

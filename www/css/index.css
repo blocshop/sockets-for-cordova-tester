@@ -1,0 +1,72 @@
+
+* {
+    -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+    -webkit-user-select: auto; /* prevent copy paste, to allow, change 'none' to 'text' */
+    -ms-user-select: none;
+    line-height: 1.1em;
+}
+
+html {
+    -ms-touch-action: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 18px;
+    text-align: center;
+    background-color: #44B687;
+    color: white;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.app {
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+#data-output {
+    height: 50%;
+    overflow: auto;
+    font-size: 9px;
+    font-family: monospace;
+    white-space: no-wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#data-output li {
+    white-space: nowrap;
+}
+
+#data-output * {
+    line-height: 1em;
+}
+
+input {
+    width: 95%;
+    box-sizing: border-box;
+    height: 32px;
+    margin: 10px auto 0 auto;
+    display: block;
+}
+
+#command-input {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
